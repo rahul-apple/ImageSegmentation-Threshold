@@ -14,6 +14,12 @@ Two packages that we’ll need, ****argparse****  and ****cv2****
 7. pip3 install opencv-python
 8. python threshold.py --image <<Image Path>> --threshold 60
 ```
+## Output - Images
+![Alt text](out/output1.png?raw=true "THRESH TRUNC")
+![Alt text](out/output2.png?raw=true "THRESH TRUNC")
+![Alt text](out/output3.png?raw=true "THRESH TRUNC")
+![Alt text](out/output4.png?raw=true "THRESH TRUNC")
+![Alt text](out/output5.png?raw=true "THRESH TRUNC")
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
