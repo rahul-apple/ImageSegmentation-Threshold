@@ -5,11 +5,11 @@ Two packages that we’ll need, ****argparse****  and ****cv2****
 
 ### Steps
 ```bash
-1. checkout the repository
-2. Open Terminal
+1. Extract The ZIP
+2. Open Terminal/command prompt
 3. cd <<Project Dir>>
-4. python3.6 -m venv my_env
-5. source my_env/bin/activate
+4. python3.6 -m venv my_env {help: try with python or python<<version_code>>}
+5. source my_env/bin/activate (for windows:my_env\Scripts\activate) 
 6. pip3 install --upgrade pip
 7. pip3 install opencv-python
 8. python threshold.py --image <<Image Path>> --threshold 60
