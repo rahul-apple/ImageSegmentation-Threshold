@@ -29,4 +29,5 @@ for (threshName, threshMethod) in methods:
 	# threshold the image and show it
 	(T, thresh) = cv2.threshold(gray, args["threshold"], 255, threshMethod)
 	cv2.imshow(threshName, thresh)
+	cv2.imwrite("Output-" + threshName + ".jpg", thresh)
 	cv2.waitKey(0)
