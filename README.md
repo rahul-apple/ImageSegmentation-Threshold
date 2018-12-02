@@ -9,22 +9,22 @@ Two packages that we’ll need, ****argparse****  and ****cv2****
 2. Open Terminal/command prompt
 3. cd <<Project Dir>>
 4. python3.6 -m venv my_env {help: try with python or python<<version_code>>}
-5. source my_env/bin/activate (for windows:my_env\Scripts\activate) 
+5. source my_env/bin/activate (for windows:my_env\Scripts\activate)
 6. pip3 install --upgrade pip
 7. pip3 install opencv-python
 8. python threshold.py --image <<Image Path>> --threshold 60
 ```
 ## Output - Images
-![Alt text](out/output1.png?raw=true "THRESH TRUNC")
-![Alt text](out/output2.png?raw=true "THRESH TRUNC")
-![Alt text](out/output3.png?raw=true "THRESH TRUNC")
-![Alt text](out/output4.png?raw=true "THRESH TRUNC")
-![Alt text](out/output5.png?raw=true "THRESH TRUNC")
+![Alt text](out/output1.jpg "THRESH TRUNC")
+![Alt text](out/output2.jpg "THRESH TRUNC")
+![Alt text](out/output3.jpg "THRESH TRUNC")
+![Alt text](out/output4.jpg "THRESH TRUNC")
+![Alt text](out/output5.jpg "THRESH TRUNC")
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## Contribors
-[ Anupama R ](https://github.com/r-anupama) 
+[ Anupama R ](https://github.com/r-anupama)
 @github/r-anupama
 
 ## License
